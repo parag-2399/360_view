@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  
+}
+
+.container {
+
+  height: 80vh;
+  align-items: center;
+  
+}
+
+.image-container {
+  /* flex: 1; */
+  height: 100%;
+
+  border-radius: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.image-container canvas{
+  border-radius: 30px;
+}
+
+.row{
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+}
+
+.row img{
+  border-radius: 20px;
+  
+}
